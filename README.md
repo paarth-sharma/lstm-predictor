@@ -13,7 +13,7 @@ Long Short-Term Memory models are extremely powerful time-series models. They ca
     - **Input gate (it)** - Decides how much information from current input flows to the cell state
     - **Forget gate (ft)** - Decides how much information from the current input and the previous cell state flows into the current cell state
     - **Output gate (ot)** - Decides how much information from the current cell state flows into the hidden state, so that if needed LSTM can only pick the long-term memories or short-term memories and long-term memories
-    - This is what the model looks like as a processing unit:
+    - This is what the model looks like as a processing unit: <br>
     ![](/src/lstm_model.jpg)
 
     - [ ] Data generator
